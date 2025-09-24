@@ -1,36 +1,39 @@
-# Byte-compiled / optimized / DLL files
+# Python cache
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Distribution / packaging
-build/
-dist/
-eggs/
-*.egg-info/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
 
 # Virtual environments
-.env
 venv/
 ENV/
 env/
+.venv/
 
-# IDEs
+# Jupyter & notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# SQL/DB files
+*.db
+*.sqlite
+*.bak
+*.mdf
+*.ldf
+
+# Logs
+*.log
+
+# OS/system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code / IDE
 .vscode/
 .idea/
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# Logs and databases
-*.log
-*.sqlite
-*.db
-
-# Python test / coverage
-.coverage
-.htmlcov/
-
-# Ignore secrets
+# Environment / secrets
+.env
 .env.local
