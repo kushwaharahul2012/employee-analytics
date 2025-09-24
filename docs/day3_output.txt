@@ -1,0 +1,37 @@
+Shape of dataset: (500, 9)
+
+Columns: ['EmployeeID', 'Name', 'Department', 'Gender', 'Age', 'Salary', 'JoinYear', 'Attrition', 'PerformanceRating']
+
+First 5 rows:
+    EmployeeID           Name  Department  ... JoinYear  Attrition  PerformanceRating
+0        1001  Employee_1001          IT  ...     2019        Yes                  3
+1        1002  Employee_1002     Finance  ...     2011        Yes                  4
+2        1003  Employee_1003  Operations  ...     2016         No                  3
+3        1004  Employee_1004     Finance  ...     2012         No                  3
+4        1005  Employee_1005          HR  ...     2011         No                  2
+
+[5 rows x 9 columns]
+
+Data Types:
+ EmployeeID            int64
+Name                 object
+Department           object
+Gender               object
+Age                   int64
+Salary                int64
+JoinYear              int64
+Attrition            object
+PerformanceRating     int64
+dtype: object
+
+Null values:
+ EmployeeID           0
+Name                 0
+Department           0
+Gender               0
+Age                  0
+Salary               0
+JoinYear             0
+Attrition            0
+PerformanceRating    0
+dtype: int64
