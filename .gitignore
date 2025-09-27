@@ -37,3 +37,15 @@ desktop.ini
 # Environment / secrets
 .env
 .env.local
+
+# Tableau backups
+*.twbr
+~*.twbr
+
+# Auto-generated validation reports
+validation_report.csv
+scripts/validation_report.csv
+
+# Pipeline outputs
+*.out
+*.tmp
