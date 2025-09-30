@@ -49,3 +49,5 @@ scripts/validation_report.csv
 # Pipeline outputs
 *.out
 *.tmp
+# Node.js dependencies
+node_modules/
